@@ -16,7 +16,7 @@ const userSchema = new mongoose.Schema({
         unique:true
     },
     isAdmin:{
-    type:boolean,
+    type:Boolean,
     default:false
     }
 },{timestamps:true})
